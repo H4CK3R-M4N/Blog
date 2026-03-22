@@ -1,8 +1,8 @@
 navbar_entries:
   - title: home
-    url: /
+    url: /Blog/
   - title: blog
-    url: /blog
+    url: /Blog/blog
 
 blog_entries:
   - post_list: true
