@@ -8,5 +8,5 @@ plugins:
   - jekyll-feed
 
 # Optional moonwalk settings
-appearance: auto   # "light", "dark", or "auto"
+appearance: dark   # "light", "dark", or "auto"
 date_format: "%B %d, %Y"
