@@ -1,12 +1,35 @@
 title: H4CK3R-M4N's Blog
-description: My hacker blog
+author: H4CK3R-M4N
+description: Where I will post things I'm working on, have completed, or just my general ramblings.
 
 remote_theme: H4CK3R-M4N/moonwalk@master
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
+permalink: /:slug
 
-# Optional moonwalk settings
-appearance: dark   # "light", "dark", or "auto"
-date_format: "%B %d, %Y"
+theme_config:
+  appearance: "dark"
+  appearance_toggle: true
+  back_home_text: "home.."
+  date_format: "%Y-%m-%d"
+  show_description: true
+  show_navbar: true
+  show_footer: true
+  show_copyright: true
+  show_projects: false
+  show_blog: true
+  show_old_projects: false
+  show_misc_list: false
+  show_reading_time: true
+  show_tags: true
+
+home:
+  title_blog: Blog
+
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
